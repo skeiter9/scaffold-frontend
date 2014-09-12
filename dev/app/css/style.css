@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: components/sidebar.
+       Load path: /home/skeiter9/Proyectos/yetsu/web
+        on line 10 of dev/app/scss/style.scss
+
+5: @import "common-scss/dev/common";
+6: 
+7: @import "components/placeholders" ;
+8: @import "components/tedhis" ;
+9: 
+10: @import "components/sidebar" ;
+11: 
+12: @import "components/screen-large";
+
+Backtrace:
+dev/app/scss/style.scss:10
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/import_node.rb:45:in `import'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:295:in `visit_import'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/exec/sass_scss.rb:375:in `run'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/exec/base.rb:40:in `parse'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/lib/sass/exec/base.rb:19:in `parse!'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/gems/sass-3.4.2/bin/sass:13:in `<top (required)>'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/bin/sass:23:in `load'
+/home/skeiter9/.rvm/gems/ruby-2.0.0-p451@yetsu/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: components/sidebar.\A        Load path: /home/skeiter9/Proyectos/yetsu/web\A         on line 10 of dev/app/scss/style.scss\A \A 5: @import \"common-scss/dev/common\";\A 6: \A 7: @import \"components/placeholders\" ;\A 8: @import \"components/tedhis\" ;\A 9: \A 10: @import \"components/sidebar\" ;\A 11: \A 12: @import \"components/screen-large\";"; }
