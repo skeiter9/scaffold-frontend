@@ -3,3 +3,4 @@
 /dev/vendor
 /dev/.sass-cache/
 /dev/app/scss/bourbon/
+.sass-cache
