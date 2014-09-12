@@ -1,0 +1,20 @@
+{
+  "name": "tedhis",
+  "version": "0.0.5",
+  "authors": [
+    "YetsuPe"
+  ],
+  "description": "Tedhi's website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.11",
+    "angular": "~1.2.24"
+  }
+}

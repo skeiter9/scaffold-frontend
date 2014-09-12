@@ -1,0 +1,59 @@
+@media screen and (min-width:1024px){
+	main {
+		position: fixed;
+		height: 100%;
+		width: 20%;
+		background-color: $bg-primary;
+	}
+	.card--delivery {
+		position: fixed;
+		top: em(16);
+		right: em(16); 
+		border-radius: em(2px) 0 0 em(2);
+		background-color: $bg-primary; 
+		h2 {
+			padding: em(8) em(16);
+			display: inline-block;
+			color: $color-white;
+			background-color: $color-primary;
+			border-radius: em(2) 0 0 em(2);
+			font-size: em(20);
+			font-family: 'roboto';
+		}
+		a {
+			font-family: 'roboto';
+			font-size: em(24);
+			color:$color-white; 
+			text-align: center;
+			padding-right:em(16); 
+		}
+		em {
+			font-family: 'roboto';
+			display: block;
+			width: 100%;
+			background-color:rgba(255,255,255,.8);
+			text-align: center;
+			color: $color-primary;
+		}
+	}
+	.nav--social {
+		position: fixed;
+		top: 25%;
+		right: em(16);
+		a {
+			display: block;
+			width: em(60px);
+			height: em(60px);
+			background-color: $bg-primary;
+			padding: em(15);
+			border-radius: 50%;
+			text-align: center;
+			margin-bottom: em(16);
+			span {
+				font-size: em(30);
+				color: $color-white;
+			}
+		}
+	}
+
+}
